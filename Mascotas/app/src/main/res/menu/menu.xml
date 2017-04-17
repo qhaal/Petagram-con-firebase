@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mFavoritos"
+        android:title="Refresh"
+        android:orderInCategory="102"
+        app:showAsAction="always"
+        android:icon="@drawable/estrellablanca"    />
+
+
+    <item
+        android:id="@+id/mContacto"
+        android:title="@string/menu_contacto"
+        android:orderInCategory="103"
+
+         />
+    <item
+        android:id="@+id/mAcercade"
+        android:title="@string/menu_acercade"
+        android:orderInCategory="104"
+
+        />
+    <item
+        android:id="@+id/mConfigurarCuenta"
+        android:title="@string/menu_configurarcuenta"
+        android:orderInCategory="105"
+
+        />
+    <item
+        android:id="@+id/mRecibirNotificaciones"
+        android:title="@string/menu_recibir_notificaciones"
+        android:orderInCategory="106"
+
+        />
+</menu>

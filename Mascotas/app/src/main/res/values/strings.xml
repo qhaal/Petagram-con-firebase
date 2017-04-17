@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Mascotas</string>
+
+
+
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_acercade">Acerca de </string>
+    <string name="menu_configurarcuenta">Configurar Cuenta</string>
+    <string name="menu_recibir_notificaciones">Recibir Notificaciones</string>
+
+
+    <string name="acercade_nombre">Albert</string>
+    <string name="acercade_descripcion">Desarrollador de aplicaciones moviles multiplataforma</string>
+    <string name="acercade_anio">2017</string>
+    <string name="acercade_derechos">Todos Los Derechos Reservados</string>
+
+    <string name="ddeveloper">Developer:</string>
+    <string name="descripcion">descripcion:</string>
+
+
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_correo">Correo</string>
+    <string name="hint_mensaje">Mensaje</string>
+    <string name="boton_enviarmensaje">Enviar Mensaje</string>
+    <string name="boton_ProcesarCuenta">Procesar Cuenta</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="nombre_mascota_perfil">Pedro</string>
+
+    <string name="contactar">CONTACTAR</string>
+
+
+</resources>

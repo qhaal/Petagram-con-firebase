@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvMascota"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    app:cardCornerRadius="@dimen/corner_radius_cardview">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_horizontal_margin">
+            <ImageView
+                android:id="@+id/imgFoto"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/mascota_1"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/activity_horizontal_margin">
+            <!--<ImageView-->
+                <!--android:id="@+id/imgHuesoVacio"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:src="@drawable/hueso_vacio"-->
+                <!--android:layout_gravity="center_horizontal"/>-->
+            <!--<TextView-->
+                <!--android:id="@+id/tvNombreMascota"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_weight="10"-->
+                <!--android:text="asasas"-->
+                <!--android:textSize="@dimen/nombre_cardview"-->
+                <!--android:textStyle="bold"/>-->
+            <TextView
+                android:id="@+id/tvPuntuacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:text="5"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:id="@+id/imgHuesoAmarillo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:src="@drawable/hueso_amarillo"
+                android:scaleType="centerCrop"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
